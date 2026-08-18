@@ -13,8 +13,7 @@ from sympy import integrate as sympy_integrate
 
 # Create MCP Server
 app = FastMCP(
-    name="Mathematical Calculator",
-    dependencies=["numpy", "scipy", "sympy", "matplotlib"],
+    name="Mathematical Calculator"
 )
 
 TRANSPORT = "sse"
